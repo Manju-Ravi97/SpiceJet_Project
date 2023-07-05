@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T18:44:53 IST" name="Default suite" finished-at="2023-07-05T18:45:43 IST" duration-ms="49647">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T18:44:53 IST" name="Default test" finished-at="2023-07-05T18:45:43 IST" duration-ms="49647">
+      <class name="testCase.Dummy_passenger_payementTestcase">
+        <test-method is-config="true" signature="properities()[pri:0, instance:testCase.Dummy_passenger_payementTestcase@661972b0]" started-at="2023-07-05T18:44:53 IST" name="properities" finished-at="2023-07-05T18:45:09 IST" duration-ms="15393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- properities -->
+        <test-method signature="payement()[pri:0, instance:testCase.Dummy_passenger_payementTestcase@661972b0]" started-at="2023-07-05T18:45:09 IST" name="payement" finished-at="2023-07-05T18:45:43 IST" duration-ms="34186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payement -->
+      </class> <!-- testCase.Dummy_passenger_payementTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

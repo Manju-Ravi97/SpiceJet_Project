@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="spicejet">
+	<test thread-count="3" name="checking passenger details">
+		<classes>
+			<class name="testCase.SignUpTestCase" />
+			<class name="testCase.LoginTestCase" />
+			<class name="testCase.OneWayTestCase" />
+		</classes>
+	</test>
+
+
+	<test thread-count="3" name="Processing  fligt with dummy account">
+		<classes>
+			<class name="testCase.Roundtrip_testcase" />
+			<class name="testCase.Process_flight_Testcase" />
+			<class name="testCase.Dummy_passenger_payementTestcase" />
+
+		</classes>
+	</test>
+
+	<test thread-count="1" name="validating all menu">
+		<classes>
+			<class name="testCase.Validate_bookingPage_Testcase" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
